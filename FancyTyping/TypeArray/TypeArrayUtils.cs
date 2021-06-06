@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace ExtendedTyping
+namespace JesseRussell.FancyTyping
 {
     public static class TypeArrayUtils
     {

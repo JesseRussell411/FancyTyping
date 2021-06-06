@@ -2,7 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-namespace ExtendedTyping
+namespace JesseRussell.FancyTyping
 {
     public struct TypeArray<T0> : ITypeArray
     {

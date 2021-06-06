@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExtendedTyping
+namespace JesseRussell.FancyTyping
 {
     public static class AnyUtils
     {

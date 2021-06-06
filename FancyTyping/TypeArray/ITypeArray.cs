@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExtendedTyping
+namespace JesseRussell.FancyTyping
 {
     /// <summary>
     /// Represents an indexable array of Type.

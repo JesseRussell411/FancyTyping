@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Text;
 
-namespace ExtendedTyping
+namespace JesseRussell.FancyTyping
 {
     public struct Any : IAny
     {
