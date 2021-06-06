@@ -10,7 +10,7 @@ namespace ExtendedTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public object Value => default;
+        public dynamic Value => default;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
