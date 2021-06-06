@@ -3,9 +3,9 @@
 
 # Parameters:
 FILE_NAME = "TypeArray.cs"
-NAMESPACE = "ExtendedTyping"
+NAMESPACE = "JesseRussell.FancyTyping"
 STRUCT_NAME = "TypeArray"
-TYPE_PARAMETER_COUNT = 32
+TYPE_PARAMETER_COUNT = 64
 #
 
 
@@ -128,7 +128,7 @@ for i in range(0, TYPE_PARAMETER_COUNT):
     output.write(INDENT * 2 + "public int Length => " + str(i + 1) + ";\n")
 
     # Casts:
-    output.write(INDENT * 2 + "public static implicit operator Type[](" + FULL_NAME + " ta) => new Type[] {")
+    output.write(INDENT * 2 + "public static implicit operator Type[](" + FULL_NAME + " ta) => new Type[] { ")
     first = True;
     for j in range(0, i + 1):
         if not first:
