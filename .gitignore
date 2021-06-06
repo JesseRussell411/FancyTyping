@@ -339,5 +339,5 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 
-# Debugging project
-/Debugging
+# Debugging file
+/Debugging/debugging.cs
