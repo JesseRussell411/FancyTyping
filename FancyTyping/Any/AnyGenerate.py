@@ -112,7 +112,7 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
         "        /// <summary>\n" +
         "        /// The value stored in the current " + STRUCT_NAME + " type.\n" +
         "        /// </summary>\n")
-    output.write("        public readonly " + VALUE_TYPE + " " + VALUE_NAME.capitalize() + ";\n")
+    output.write("        public " + VALUE_TYPE + " " + VALUE_NAME.capitalize() + "{ get; }\n")
     #
 
     # private Constructor.

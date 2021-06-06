@@ -12,7 +12,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -50,7 +50,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -90,7 +90,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -132,7 +132,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -176,7 +176,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -222,7 +222,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -270,7 +270,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -320,7 +320,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -372,7 +372,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -426,7 +426,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -482,7 +482,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -540,7 +540,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -600,7 +600,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -662,7 +662,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -726,7 +726,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -792,7 +792,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -860,7 +860,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -930,7 +930,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1002,7 +1002,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1076,7 +1076,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1152,7 +1152,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1230,7 +1230,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1310,7 +1310,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1392,7 +1392,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1476,7 +1476,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1562,7 +1562,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1650,7 +1650,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1740,7 +1740,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1832,7 +1832,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -1926,7 +1926,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -2022,7 +2022,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
@@ -2120,7 +2120,7 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly dynamic Value;
+        public dynamic Value{ get; }
         private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);

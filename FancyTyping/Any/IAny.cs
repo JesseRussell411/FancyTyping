@@ -11,6 +11,7 @@ namespace JesseRussell.FancyTyping
     {
         IEnumerable<Type> WhiteList { get; }
         ImmutableHashSet<Type> WhiteSet { get; }
+        object Value { get; }
 
     }
 }
