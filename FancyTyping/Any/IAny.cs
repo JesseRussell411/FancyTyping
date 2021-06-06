@@ -9,7 +9,7 @@ namespace JesseRussell.FancyTyping
     /// </summary>
     public interface IAny
     {
-        IEnumerable<Type> WhiteList { get; }
+        ITypeArray WhiteList { get; }
         ImmutableHashSet<Type> WhiteSet { get; }
         object Value { get; }
         Type Type { get; }

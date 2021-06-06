@@ -76,6 +76,11 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
 
     FULL_NAME = STRUCT_NAME + "<" + to_delim_string(types) + ">";
 
+    # struct doc:
+    output.write(INDENT + "/// <summary>\n" +
+        INDENT + "/// Can store any value of a type found in the type arguments.\n" +
+        INDENT + "/// </summary>\n")
+
     # Struct declaration:
     output.write("    public struct " + STRUCT_NAME + "<")
 
@@ -88,7 +93,7 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
     # Implicit casts...
     for j in range(1, i + 1):
         output.write("        public static implicit operator " + FULL_NAME + "(")
-        output.write(T(j) + " " + t(j) + ") => new " + FULL_NAME + "((object)" + t(j) + ");\n")
+        output.write(T(j) + " " + t(j) + ") => new " + FULL_NAME + "(" + t(j) + ");\n")
 
     # Explicit casts...
     for j in range(1, i + 1):
@@ -102,7 +107,8 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
         # output.write(", self." + VALUE_NAME.capitalize() + ".GetType()));\n")
 
     # Public constructor
-    output.write(INDENT * 2 + "public " + STRUCT_NAME + "(" + FULL_NAME + " " + VALUE_NAME + ") => " + VALUE_NAME.capitalize() + " = " + VALUE_NAME + "." + VALUE_NAME.capitalize() + ";\n")
+    # output.write(INDENT * 2 + "public " + STRUCT_NAME + "(" + FULL_NAME + " " + VALUE_NAME + ") => " + VALUE_NAME.capitalize() + " = " + VALUE_NAME + "." + VALUE_NAME.capitalize() + ";\n")
+    output.write(INDENT * 2 + "public static " + FULL_NAME + " Set(" + FULL_NAME + " " + VALUE_NAME.capitalize() + ") => " + VALUE_NAME.capitalize() + ";\n")
 
     # Remaining members:
     # ------------------
@@ -121,7 +127,7 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
 
     # Object Method Overrides:
     output.write("        public override string ToString() => " + VALUE_NAME.capitalize() + ".ToString();\n")
-    output.write("        public override bool Equals(object obj) => " + VALUE_NAME.capitalize() + ".Equals(obj);\n")
+    output.write("        public override bool Equals(object obj) => " + VALUE_NAME.capitalize() + "?.Equals(obj) ?? obj?.Equals(" + VALUE_NAME.capitalize() + ") ?? true;\n")
     output.write("        public override int GetHashCode() => " + VALUE_NAME.capitalize() + ".GetHashCode();\n")
     #
 
@@ -134,20 +140,21 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
     output.write("        public Type Type => " + VALUE_NAME.capitalize() + ".GetType();\n")
         #
 
+    TYPE_ARRAY_NAME = "TypeArray<" + to_delim_string(types) + ">"
         # WhiteList
     output.write(
         INDENT * 2 + "/// <summary>\n" +
         INDENT * 2 + "/// TypeArray containing all of the types that are allowed.\n" +
         INDENT * 2 + "/// </summary>\n"
     )
-    output.write(INDENT * 2 + "public static readonly IEnumerable<Type> whiteList = new TypeArray<" + to_delim_string(types) + ">();\n")
+    output.write(INDENT * 2 + "public static readonly ITypeArray whiteList = new TypeArray<" + to_delim_string(types) + ">();\n")
 
     output.write(
         INDENT * 2 + "/// <summary>\n" +
         INDENT * 2 + "/// TypeArray containing all of the types that are allowed.\n" +
         INDENT * 2 + "/// </summary>\n"
     )
-    output.write(INDENT * 2 + "public IEnumerable<Type> WhiteList => whiteList;\n")
+    output.write(INDENT * 2 + "public ITypeArray WhiteList => whiteList;\n")
         #
 
         # WhiteSet
@@ -169,12 +176,13 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
 
     # Operators
         # ==
-    output.write(INDENT * 2 + "public static bool operator ==(" + FULL_NAME + " left, " + FULL_NAME + " right) => left.")
-    output.write(VALUE_NAME.capitalize() + ".Equals(right." + VALUE_NAME.capitalize() + ");\n")
+    output.write(INDENT * 2 + "public static bool operator ==(" + FULL_NAME + " left, " + FULL_NAME + " right) => left." + VALUE_NAME.capitalize() + "?.Equals(right." + VALUE_NAME.capitalize() + ") ?? right." + VALUE_NAME.capitalize() + "?.Equals(left." + VALUE_NAME.capitalize() + ") ?? true;\n")
+    # output.write(VALUE_NAME.capitalize() + ".Equals(right." + VALUE_NAME.capitalize() + ");\n")
+    # # output.write(VALUE_NAME.capitalize() + ".Equals(right." + VALUE_NAME.capitalize() + ");\n")
 
         # !=
-    output.write(INDENT * 2 + "public static bool operator !=(" + FULL_NAME + " left, " + FULL_NAME + " right) => !left.")
-    output.write(VALUE_NAME.capitalize() + ".Equals(right." + VALUE_NAME.capitalize() + ");\n")
+    output.write(INDENT * 2 + "public static bool operator !=(" + FULL_NAME + " left, " + FULL_NAME + " right) => !left." + VALUE_NAME.capitalize() + "?.Equals(right." + VALUE_NAME.capitalize() + ") ?? right." + VALUE_NAME.capitalize() + "?.Equals(left." + VALUE_NAME.capitalize() + ") ?? true;\n")
+    # output.write(VALUE_NAME.capitalize() + ".Equals(right." + VALUE_NAME.capitalize() + ");\n")
     #
     # Close struct.
     output.write("    }\n")
