@@ -92,13 +92,14 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
 
     # Explicit casts...
     for j in range(1, i + 1):
-        output.write("        public static explicit operator " + T(j) + "(" + FULL_NAME + " self) => self.")
-        output.write(VALUE_NAME.capitalize() + " is " + T(j) + " " + t(j) + " ? " + t(j) + " : ")
+        # output.write("        public static explicit operator " + T(j) + "(" + FULL_NAME + " self) => self.")
+        # output.write(VALUE_NAME.capitalize() + " is " + T(j) + " " + t(j) + " ? " + t(j) + " : ")
+        output.write(INDENT * 2 + "public static explicit operator " + T(j) + "(" + FULL_NAME + "self) => (" + T(j) + ")self." + VALUE_NAME.capitalize() + ";\n")
 
-            # Invalid cast exception.
-        output.write("throw new InvalidCastException(")
-        output.write(UTILS_NAME + ".GenerateInvalidCastExceptionMessage(self.GetType(), typeof(" + T(j) + ")")
-        output.write(", self." + VALUE_NAME.capitalize() + ".GetType()));\n")
+        #     # Invalid cast exception.
+        # output.write("throw new InvalidCastException(")
+        # output.write(UTILS_NAME + ".GenerateInvalidCastExceptionMessage(self.GetType(), typeof(" + T(j) + ")")
+        # output.write(", self." + VALUE_NAME.capitalize() + ".GetType()));\n")
 
     # Public constructor
     output.write(INDENT * 2 + "public " + STRUCT_NAME + "(" + FULL_NAME + " " + VALUE_NAME + ") => " + VALUE_NAME.capitalize() + " = " + VALUE_NAME + "." + VALUE_NAME.capitalize() + ";\n")
