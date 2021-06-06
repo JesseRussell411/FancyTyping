@@ -7,7 +7,5 @@ namespace JesseRussell.FancyTyping
 {
     public static class TypeArrayUtils
     {
-        public static IEnumerable<Type> GetParents(this Type self) => new[] { self.BaseType }.Concat(self.GetInterfaces());
-        public static IEnumerable<Type> GetSelfAndParents(this Type self) => new[] { self }.Concat(self.GetParents());
     }
 }
