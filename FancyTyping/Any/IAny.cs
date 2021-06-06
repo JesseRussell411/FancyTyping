@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Collections.Immutable;
 
 namespace ExtendedTyping
 {
     /// <summary>
     /// Allows any item of a type found in the whiteList to be stored.
     /// </summary>
-    public interface ILoose : ITyping
+    public interface IAny
     {
         IEnumerable<Type> WhiteList { get; }
+        ImmutableHashSet<Type> WhiteSet { get; }
+
     }
 }
