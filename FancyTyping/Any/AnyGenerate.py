@@ -9,7 +9,7 @@ NAMESPACE = "JesseRussell.FancyTyping"
 UTILS_NAME = "AnyUtils"
 STRUCT_NAME = "Any"
 INTERFACE_NAME = "IAny"
-VALUE_TYPE = "object"
+VALUE_TYPE = "dynamic"
 VALUE_NAME = "Value"
 TYPE_PARAMETER_COUNT = 32
 #

@@ -12,8 +12,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -50,8 +50,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -90,8 +90,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -132,8 +132,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -176,8 +176,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -222,8 +222,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -270,8 +270,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -320,8 +320,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -372,8 +372,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -426,8 +426,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -482,8 +482,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -540,8 +540,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -600,8 +600,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -662,8 +662,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -726,8 +726,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -792,8 +792,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -860,8 +860,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -930,8 +930,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1002,8 +1002,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1076,8 +1076,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1152,8 +1152,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1230,8 +1230,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1310,8 +1310,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1392,8 +1392,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1476,8 +1476,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1562,8 +1562,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1650,8 +1650,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1740,8 +1740,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1832,8 +1832,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -1926,8 +1926,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -2022,8 +2022,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
@@ -2120,8 +2120,8 @@ namespace JesseRussell.FancyTyping
         /// <summary>
         /// The value stored in the current Any type.
         /// </summary>
-        public readonly object Value;
-        private Any(object value) => Value = value;
+        public readonly dynamic Value;
+        private Any(dynamic value) => Value = value;
         public override string ToString() => Value.ToString();
         public override bool Equals(object obj) => Value.Equals(obj);
         public override int GetHashCode() => Value.GetHashCode();
