@@ -175,23 +175,24 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
     output.write(INDENT * 2 + "public static bool operator !=(" + FULL_NAME + " left, " + FULL_NAME + " right) => !left.")
     output.write(VALUE_NAME.capitalize() + ".Equals(right." + VALUE_NAME.capitalize() + ");\n")
     #
-    # Close struct.
-    output.write("    }\n")
 
     # match
     output.write(INDENT * 2 + "public R Match<R, T>(Func<T, R> action, R returnFallback = default)\n")
     output.write(INDENT * 2 + "{\n")
-    output.write(INDENT * 3 + "if (Value is T t) { return action(t); }\n")
+    output.write(INDENT * 3 + "if (" + VALUE_NAME + " is T t) { return action(t); }\n")
     output.write(INDENT * 3 + "else { return returnFallback; }\n")
     output.write(INDENT * 2 + "}\n")
     output.write(INDENT * 2 + "public bool Match(Action action)\n")
     output.write(INDENT * 2 + "{\n")
-    output.write(INDENT * 2 + "if (Value is T t)\n")
-    output.write(INDENT * 2 + "{\n")
-    output.write(INDENT * 3 + "action(t);\n")
-    output.write(INDENT * 3 + "return true;\n")
-    output.write(INDENT * 2 + "} else { return false; }\n")
+    output.write(INDENT * 3 + "if (" + VALUE_NAME + " is T t)\n")
+    output.write(INDENT * 3 + "{\n")
+    output.write(INDENT * 4 + "action(t);\n")
+    output.write(INDENT * 4 + "return true;\n")
+    output.write(INDENT * 3 + "} else { return false; }\n")
     output.write(INDENT * 2 + "}\n")
+    
+    # Close struct.
+    output.write("    }\n")
 
 # Close namespace.
 output.write("}")
