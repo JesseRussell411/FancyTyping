@@ -179,7 +179,7 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
     output.write("    }\n")
 
     # match
-    output.write(INDENT * 2 + "public R Match<R, T>(Func<T, R> action, R returnFallback = default)\n)
+    output.write(INDENT * 2 + "public R Match<R, T>(Func<T, R> action, R returnFallback = default)\n")
     output.write(INDENT * 2 + "{\n")
     output.write(INDENT * 3 + "if (Value is T t) { return action(t); }\n")
     output.write(INDENT * 3 + "else { return returnFallback; }\n")
