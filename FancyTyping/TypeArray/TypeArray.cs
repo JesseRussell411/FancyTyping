@@ -23,7 +23,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 1;
-        public static implicit operator Type[](TypeArray<T0> ta) => new Type[] {typeof(T0) };
+        public static implicit operator Type[](TypeArray<T0> ta) => new Type[] { typeof(T0) };
     }
     public struct TypeArray<T0, T1> : ITypeArray
     {
@@ -44,7 +44,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 2;
-        public static implicit operator Type[](TypeArray<T0, T1> ta) => new Type[] {typeof(T0), typeof(T1) };
+        public static implicit operator Type[](TypeArray<T0, T1> ta) => new Type[] { typeof(T0), typeof(T1) };
     }
     public struct TypeArray<T0, T1, T2> : ITypeArray
     {
@@ -65,7 +65,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 3;
-        public static implicit operator Type[](TypeArray<T0, T1, T2> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2) };
     }
     public struct TypeArray<T0, T1, T2, T3> : ITypeArray
     {
@@ -88,7 +88,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 4;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4> : ITypeArray
     {
@@ -111,7 +111,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 5;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5> : ITypeArray
     {
@@ -134,7 +134,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 6;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6> : ITypeArray
     {
@@ -159,7 +159,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 7;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7> : ITypeArray
     {
@@ -184,7 +184,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 8;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8> : ITypeArray
     {
@@ -209,7 +209,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 9;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9> : ITypeArray
     {
@@ -236,7 +236,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 10;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> : ITypeArray
     {
@@ -263,7 +263,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 11;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> : ITypeArray
     {
@@ -290,7 +290,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 12;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> : ITypeArray
     {
@@ -319,7 +319,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 13;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> : ITypeArray
     {
@@ -348,7 +348,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 14;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> : ITypeArray
     {
@@ -377,7 +377,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 15;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> : ITypeArray
     {
@@ -408,7 +408,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 16;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> : ITypeArray
     {
@@ -439,7 +439,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 17;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17> : ITypeArray
     {
@@ -470,7 +470,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 18;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18> : ITypeArray
     {
@@ -503,7 +503,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 19;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19> : ITypeArray
     {
@@ -536,7 +536,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 20;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20> : ITypeArray
     {
@@ -569,7 +569,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 21;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21> : ITypeArray
     {
@@ -604,7 +604,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 22;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22> : ITypeArray
     {
@@ -639,7 +639,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 23;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23> : ITypeArray
     {
@@ -674,7 +674,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 24;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> : ITypeArray
     {
@@ -711,7 +711,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 25;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25> : ITypeArray
     {
@@ -748,7 +748,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 26;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26> : ITypeArray
     {
@@ -785,7 +785,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 27;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27> : ITypeArray
     {
@@ -824,7 +824,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 28;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28> : ITypeArray
     {
@@ -863,7 +863,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 29;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29> : ITypeArray
     {
@@ -902,7 +902,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 30;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30> : ITypeArray
     {
@@ -943,7 +943,7 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 31;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30) };
     }
     public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31> : ITypeArray
     {
@@ -984,6 +984,1670 @@ namespace JesseRussell.FancyTyping
             }
         }
         public int Length => 32;
-        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31> ta) => new Type[] {typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31) };
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 33;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 34;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 35;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 36;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 37;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 38;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 39;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 40;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 41;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 42;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 43;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 44;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 45;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 46;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 47;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 48;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 49;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 50;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 51;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 52;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 53;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);yield return typeof(T53);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);case 53: return typeof(T53);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 54;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52), typeof(T53) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);yield return typeof(T53);
+            yield return typeof(T54);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);case 53: return typeof(T53);
+                    case 54: return typeof(T54);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 55;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52), typeof(T53), typeof(T54) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);yield return typeof(T53);
+            yield return typeof(T54);yield return typeof(T55);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);case 53: return typeof(T53);
+                    case 54: return typeof(T54);case 55: return typeof(T55);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 56;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52), typeof(T53), typeof(T54), typeof(T55) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);yield return typeof(T53);
+            yield return typeof(T54);yield return typeof(T55);yield return typeof(T56);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);case 53: return typeof(T53);
+                    case 54: return typeof(T54);case 55: return typeof(T55);case 56: return typeof(T56);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 57;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52), typeof(T53), typeof(T54), typeof(T55), typeof(T56) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);yield return typeof(T53);
+            yield return typeof(T54);yield return typeof(T55);yield return typeof(T56);
+            yield return typeof(T57);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);case 53: return typeof(T53);
+                    case 54: return typeof(T54);case 55: return typeof(T55);case 56: return typeof(T56);
+                    case 57: return typeof(T57);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 58;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52), typeof(T53), typeof(T54), typeof(T55), typeof(T56), typeof(T57) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);yield return typeof(T53);
+            yield return typeof(T54);yield return typeof(T55);yield return typeof(T56);
+            yield return typeof(T57);yield return typeof(T58);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);case 53: return typeof(T53);
+                    case 54: return typeof(T54);case 55: return typeof(T55);case 56: return typeof(T56);
+                    case 57: return typeof(T57);case 58: return typeof(T58);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 59;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52), typeof(T53), typeof(T54), typeof(T55), typeof(T56), typeof(T57), typeof(T58) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58, T59> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);yield return typeof(T53);
+            yield return typeof(T54);yield return typeof(T55);yield return typeof(T56);
+            yield return typeof(T57);yield return typeof(T58);yield return typeof(T59);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);case 53: return typeof(T53);
+                    case 54: return typeof(T54);case 55: return typeof(T55);case 56: return typeof(T56);
+                    case 57: return typeof(T57);case 58: return typeof(T58);case 59: return typeof(T59);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 60;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58, T59> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52), typeof(T53), typeof(T54), typeof(T55), typeof(T56), typeof(T57), typeof(T58), typeof(T59) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58, T59, T60> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);yield return typeof(T53);
+            yield return typeof(T54);yield return typeof(T55);yield return typeof(T56);
+            yield return typeof(T57);yield return typeof(T58);yield return typeof(T59);
+            yield return typeof(T60);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);case 53: return typeof(T53);
+                    case 54: return typeof(T54);case 55: return typeof(T55);case 56: return typeof(T56);
+                    case 57: return typeof(T57);case 58: return typeof(T58);case 59: return typeof(T59);
+                    case 60: return typeof(T60);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 61;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58, T59, T60> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52), typeof(T53), typeof(T54), typeof(T55), typeof(T56), typeof(T57), typeof(T58), typeof(T59), typeof(T60) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58, T59, T60, T61> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);yield return typeof(T53);
+            yield return typeof(T54);yield return typeof(T55);yield return typeof(T56);
+            yield return typeof(T57);yield return typeof(T58);yield return typeof(T59);
+            yield return typeof(T60);yield return typeof(T61);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);case 53: return typeof(T53);
+                    case 54: return typeof(T54);case 55: return typeof(T55);case 56: return typeof(T56);
+                    case 57: return typeof(T57);case 58: return typeof(T58);case 59: return typeof(T59);
+                    case 60: return typeof(T60);case 61: return typeof(T61);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 62;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58, T59, T60, T61> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52), typeof(T53), typeof(T54), typeof(T55), typeof(T56), typeof(T57), typeof(T58), typeof(T59), typeof(T60), typeof(T61) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58, T59, T60, T61, T62> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);yield return typeof(T53);
+            yield return typeof(T54);yield return typeof(T55);yield return typeof(T56);
+            yield return typeof(T57);yield return typeof(T58);yield return typeof(T59);
+            yield return typeof(T60);yield return typeof(T61);yield return typeof(T62);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);case 53: return typeof(T53);
+                    case 54: return typeof(T54);case 55: return typeof(T55);case 56: return typeof(T56);
+                    case 57: return typeof(T57);case 58: return typeof(T58);case 59: return typeof(T59);
+                    case 60: return typeof(T60);case 61: return typeof(T61);case 62: return typeof(T62);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 63;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58, T59, T60, T61, T62> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52), typeof(T53), typeof(T54), typeof(T55), typeof(T56), typeof(T57), typeof(T58), typeof(T59), typeof(T60), typeof(T61), typeof(T62) };
+    }
+    public struct TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58, T59, T60, T61, T62, T63> : ITypeArray
+    {
+        public IEnumerator<Type> GetEnumerator()
+        {
+            yield return typeof(T0);yield return typeof(T1);yield return typeof(T2);
+            yield return typeof(T3);yield return typeof(T4);yield return typeof(T5);
+            yield return typeof(T6);yield return typeof(T7);yield return typeof(T8);
+            yield return typeof(T9);yield return typeof(T10);yield return typeof(T11);
+            yield return typeof(T12);yield return typeof(T13);yield return typeof(T14);
+            yield return typeof(T15);yield return typeof(T16);yield return typeof(T17);
+            yield return typeof(T18);yield return typeof(T19);yield return typeof(T20);
+            yield return typeof(T21);yield return typeof(T22);yield return typeof(T23);
+            yield return typeof(T24);yield return typeof(T25);yield return typeof(T26);
+            yield return typeof(T27);yield return typeof(T28);yield return typeof(T29);
+            yield return typeof(T30);yield return typeof(T31);yield return typeof(T32);
+            yield return typeof(T33);yield return typeof(T34);yield return typeof(T35);
+            yield return typeof(T36);yield return typeof(T37);yield return typeof(T38);
+            yield return typeof(T39);yield return typeof(T40);yield return typeof(T41);
+            yield return typeof(T42);yield return typeof(T43);yield return typeof(T44);
+            yield return typeof(T45);yield return typeof(T46);yield return typeof(T47);
+            yield return typeof(T48);yield return typeof(T49);yield return typeof(T50);
+            yield return typeof(T51);yield return typeof(T52);yield return typeof(T53);
+            yield return typeof(T54);yield return typeof(T55);yield return typeof(T56);
+            yield return typeof(T57);yield return typeof(T58);yield return typeof(T59);
+            yield return typeof(T60);yield return typeof(T61);yield return typeof(T62);
+            yield return typeof(T63);
+        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
+        public Type this[int i]
+        {
+            get
+            {
+                switch (i)
+                {
+                    case 0: return typeof(T0);case 1: return typeof(T1);case 2: return typeof(T2);
+                    case 3: return typeof(T3);case 4: return typeof(T4);case 5: return typeof(T5);
+                    case 6: return typeof(T6);case 7: return typeof(T7);case 8: return typeof(T8);
+                    case 9: return typeof(T9);case 10: return typeof(T10);case 11: return typeof(T11);
+                    case 12: return typeof(T12);case 13: return typeof(T13);case 14: return typeof(T14);
+                    case 15: return typeof(T15);case 16: return typeof(T16);case 17: return typeof(T17);
+                    case 18: return typeof(T18);case 19: return typeof(T19);case 20: return typeof(T20);
+                    case 21: return typeof(T21);case 22: return typeof(T22);case 23: return typeof(T23);
+                    case 24: return typeof(T24);case 25: return typeof(T25);case 26: return typeof(T26);
+                    case 27: return typeof(T27);case 28: return typeof(T28);case 29: return typeof(T29);
+                    case 30: return typeof(T30);case 31: return typeof(T31);case 32: return typeof(T32);
+                    case 33: return typeof(T33);case 34: return typeof(T34);case 35: return typeof(T35);
+                    case 36: return typeof(T36);case 37: return typeof(T37);case 38: return typeof(T38);
+                    case 39: return typeof(T39);case 40: return typeof(T40);case 41: return typeof(T41);
+                    case 42: return typeof(T42);case 43: return typeof(T43);case 44: return typeof(T44);
+                    case 45: return typeof(T45);case 46: return typeof(T46);case 47: return typeof(T47);
+                    case 48: return typeof(T48);case 49: return typeof(T49);case 50: return typeof(T50);
+                    case 51: return typeof(T51);case 52: return typeof(T52);case 53: return typeof(T53);
+                    case 54: return typeof(T54);case 55: return typeof(T55);case 56: return typeof(T56);
+                    case 57: return typeof(T57);case 58: return typeof(T58);case 59: return typeof(T59);
+                    case 60: return typeof(T60);case 61: return typeof(T61);case 62: return typeof(T62);
+                    case 63: return typeof(T63);
+                    default: throw new IndexOutOfRangeException();
+                }
+            }
+        }
+        public int Length => 64;
+        public static implicit operator Type[](TypeArray<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33, T34, T35, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45, T46, T47, T48, T49, T50, T51, T52, T53, T54, T55, T56, T57, T58, T59, T60, T61, T62, T63> ta) => new Type[] { typeof(T0), typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(T6), typeof(T7), typeof(T8), typeof(T9), typeof(T10), typeof(T11), typeof(T12), typeof(T13), typeof(T14), typeof(T15), typeof(T16), typeof(T17), typeof(T18), typeof(T19), typeof(T20), typeof(T21), typeof(T22), typeof(T23), typeof(T24), typeof(T25), typeof(T26), typeof(T27), typeof(T28), typeof(T29), typeof(T30), typeof(T31), typeof(T32), typeof(T33), typeof(T34), typeof(T35), typeof(T36), typeof(T37), typeof(T38), typeof(T39), typeof(T40), typeof(T41), typeof(T42), typeof(T43), typeof(T44), typeof(T45), typeof(T46), typeof(T47), typeof(T48), typeof(T49), typeof(T50), typeof(T51), typeof(T52), typeof(T53), typeof(T54), typeof(T55), typeof(T56), typeof(T57), typeof(T58), typeof(T59), typeof(T60), typeof(T61), typeof(T62), typeof(T63) };
     }
 }
