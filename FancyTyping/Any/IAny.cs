@@ -9,9 +9,12 @@ namespace JesseRussell.FancyTyping
     /// </summary>
     public interface IAny
     {
-        ITypeArray WhiteList { get; }
-        ImmutableHashSet<Type> WhiteSet { get; }
+        // requirements:
         object Value { get; }
         Type Type { get; }
+
+        // self implemented:
+        public static ImmutableHashSet<Type> WhiteList = new TypeArray().ToImmutableHashSet();
+
     }
 }
