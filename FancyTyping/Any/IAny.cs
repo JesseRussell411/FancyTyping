@@ -13,8 +13,10 @@ namespace JesseRussell.FancyTyping
         object Value { get; }
         Type Type { get; }
 
+        ImmutableHashSet<Type> WhiteList { get; }
+
         // self implemented:
-        public static ImmutableHashSet<Type> WhiteList = new TypeArray().ToImmutableHashSet();
+        public static ImmutableHashSet<Type> StaticWhiteList = new TypeArray().ToImmutableHashSet();
 
     }
 }

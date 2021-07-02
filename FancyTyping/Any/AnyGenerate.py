@@ -6,11 +6,8 @@ import sys
 # Parameters:
 FILE_NAME = "Any.cs"
 NAMESPACE = "JesseRussell.FancyTyping"
-UTILS_NAME = "AnyUtils"
 STRUCT_NAME = "Any"
 INTERFACE_NAME = "IAny"
-VALUE_TYPE = "object"
-VALUE_NAME = "Value"
 TYPE_PARAMETER_COUNT = 8
 #
 
@@ -18,10 +15,6 @@ TYPE_PARAMETER_COUNT = 8
 # Constants:
 INDENT = "    "
 #
-
-
-# Prep VALUE_NAME. un-capitalize it.
-VALUE_NAME = VALUE_NAME[0].lower() + VALUE_NAME[1:]
 
 
 # Returns string representation of the parameter: enumerable, delimited by the delim parameter.
@@ -96,7 +89,8 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
 
     # whiteList
     outwriteline(INDENT * 2 + "private static ImmutableHashSet<Type> _whiteList = null;")
-    outwriteline(INDENT * 2 + "public static ImmutableHashSet<Type> WhiteList => _whiteList ??= new TypeArray<" + to_delim_string(types) + ">().ToImmutableHashSet();")
+    outwriteline(INDENT * 2 + "public static ImmutableHashSet<Type> StaticWhiteList => _whiteList ??= new TypeArray<" + to_delim_string(types) + ">().ToImmutableHashSet();")
+    outwriteline(INDENT * 2 + "public ImmutableHashSet<Type> WhiteList => StaticWhiteList;")
 
     # constructors:
     for j in range(1, i + 1):
@@ -115,6 +109,50 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
     outwriteline(INDENT * 2 + "public override string ToString() => Value?.ToString();")
     outwriteline(INDENT * 2 + "public override int GetHashCode() => Value?.GetHashCode() ?? HashCode.Combine((object)null);")
     outwriteline(INDENT * 2 + "public override bool Equals(object obj) => Value?.Equals(obj) ?? obj?.Equals(Value) ?? true;")
+
+    # #match
+    # def makeMatchFunctions(variant):
+    #     matchTypes = []
+    #     for j in range(1, i + 1):
+    #
+    #         output.write(INDENT * 2 + "public R Match<R>(")
+    #
+    #         first = True;
+    #         for x in range(1, j + 1):
+    #             if not first:
+    #                 output.write(", ")
+    #             output.write("Func<" + T(x) + ", R> if" + T(x))
+    #             first = False
+    #
+    #         if variant == "fallbackValue":
+    #             if (not first):
+    #                 output.write(", ")
+    #             output.write("R fallback")
+    #         elif variant == "fallbackFunction":
+    #             if (not first):
+    #                 output.write(", ")
+    #             output.write("Func<R> fallback")
+    #
+    #         output.write(") => Value switch\n");
+    #         outwriteline(INDENT * 2 + "{")
+    #         for x in range(1, j + 1):
+    #             outwriteline(INDENT * 3 + T(x) + " " + t(x) + " => if" + T(x) + "(" + t(x) + "),")
+    #
+    #         if variant == "fallbackValue":
+    #             outwriteline(INDENT * 3 + "_ => fallback,")
+    #         elif variant == "fallbackFunction":
+    #             outwriteline(INDENT * 3 + "_ => fallback(),")
+    #         else:
+    #             outwriteline(INDENT * 3 + "_ => default,")
+    #
+    #         outwriteline(INDENT * 2 + "};")
+
+    # makeMatchFunctions("")
+    # makeMatchFunctions("fallbackValue")
+    # makeMatchFunctions("fallbackFunction")
+    #
+    #
+
     # Close struct.
     output.write("    }\n")
 

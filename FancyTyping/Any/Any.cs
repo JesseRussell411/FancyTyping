@@ -12,7 +12,8 @@ namespace JesseRussell.FancyTyping
         public object Value { get; }
         public Type Type => Value.GetType();
         private static ImmutableHashSet<Type> _whiteList = null;
-        public static ImmutableHashSet<Type> WhiteList => _whiteList ??= new TypeArray<T1>().ToImmutableHashSet();
+        public static ImmutableHashSet<Type> StaticWhiteList => _whiteList ??= new TypeArray<T1>().ToImmutableHashSet();
+        public ImmutableHashSet<Type> WhiteList => StaticWhiteList;
         public Any(T1 value) => Value = value;
         public static implicit operator Any<T1>(T1 value) => new Any<T1>(value);
         public static explicit operator T1(Any<T1> self) => self.TryMatch(out T1 result) ? result : throw new InvalidCastException();
@@ -28,7 +29,8 @@ namespace JesseRussell.FancyTyping
         public object Value { get; }
         public Type Type => Value.GetType();
         private static ImmutableHashSet<Type> _whiteList = null;
-        public static ImmutableHashSet<Type> WhiteList => _whiteList ??= new TypeArray<T1, T2>().ToImmutableHashSet();
+        public static ImmutableHashSet<Type> StaticWhiteList => _whiteList ??= new TypeArray<T1, T2>().ToImmutableHashSet();
+        public ImmutableHashSet<Type> WhiteList => StaticWhiteList;
         public Any(T1 value) => Value = value;
         public Any(T2 value) => Value = value;
         public static implicit operator Any<T1, T2>(T1 value) => new Any<T1, T2>(value);
@@ -47,7 +49,8 @@ namespace JesseRussell.FancyTyping
         public object Value { get; }
         public Type Type => Value.GetType();
         private static ImmutableHashSet<Type> _whiteList = null;
-        public static ImmutableHashSet<Type> WhiteList => _whiteList ??= new TypeArray<T1, T2, T3>().ToImmutableHashSet();
+        public static ImmutableHashSet<Type> StaticWhiteList => _whiteList ??= new TypeArray<T1, T2, T3>().ToImmutableHashSet();
+        public ImmutableHashSet<Type> WhiteList => StaticWhiteList;
         public Any(T1 value) => Value = value;
         public Any(T2 value) => Value = value;
         public Any(T3 value) => Value = value;
@@ -69,7 +72,8 @@ namespace JesseRussell.FancyTyping
         public object Value { get; }
         public Type Type => Value.GetType();
         private static ImmutableHashSet<Type> _whiteList = null;
-        public static ImmutableHashSet<Type> WhiteList => _whiteList ??= new TypeArray<T1, T2, T3, T4>().ToImmutableHashSet();
+        public static ImmutableHashSet<Type> StaticWhiteList => _whiteList ??= new TypeArray<T1, T2, T3, T4>().ToImmutableHashSet();
+        public ImmutableHashSet<Type> WhiteList => StaticWhiteList;
         public Any(T1 value) => Value = value;
         public Any(T2 value) => Value = value;
         public Any(T3 value) => Value = value;
@@ -94,7 +98,8 @@ namespace JesseRussell.FancyTyping
         public object Value { get; }
         public Type Type => Value.GetType();
         private static ImmutableHashSet<Type> _whiteList = null;
-        public static ImmutableHashSet<Type> WhiteList => _whiteList ??= new TypeArray<T1, T2, T3, T4, T5>().ToImmutableHashSet();
+        public static ImmutableHashSet<Type> StaticWhiteList => _whiteList ??= new TypeArray<T1, T2, T3, T4, T5>().ToImmutableHashSet();
+        public ImmutableHashSet<Type> WhiteList => StaticWhiteList;
         public Any(T1 value) => Value = value;
         public Any(T2 value) => Value = value;
         public Any(T3 value) => Value = value;
@@ -122,7 +127,8 @@ namespace JesseRussell.FancyTyping
         public object Value { get; }
         public Type Type => Value.GetType();
         private static ImmutableHashSet<Type> _whiteList = null;
-        public static ImmutableHashSet<Type> WhiteList => _whiteList ??= new TypeArray<T1, T2, T3, T4, T5, T6>().ToImmutableHashSet();
+        public static ImmutableHashSet<Type> StaticWhiteList => _whiteList ??= new TypeArray<T1, T2, T3, T4, T5, T6>().ToImmutableHashSet();
+        public ImmutableHashSet<Type> WhiteList => StaticWhiteList;
         public Any(T1 value) => Value = value;
         public Any(T2 value) => Value = value;
         public Any(T3 value) => Value = value;
@@ -153,7 +159,8 @@ namespace JesseRussell.FancyTyping
         public object Value { get; }
         public Type Type => Value.GetType();
         private static ImmutableHashSet<Type> _whiteList = null;
-        public static ImmutableHashSet<Type> WhiteList => _whiteList ??= new TypeArray<T1, T2, T3, T4, T5, T6, T7>().ToImmutableHashSet();
+        public static ImmutableHashSet<Type> StaticWhiteList => _whiteList ??= new TypeArray<T1, T2, T3, T4, T5, T6, T7>().ToImmutableHashSet();
+        public ImmutableHashSet<Type> WhiteList => StaticWhiteList;
         public Any(T1 value) => Value = value;
         public Any(T2 value) => Value = value;
         public Any(T3 value) => Value = value;
@@ -187,7 +194,8 @@ namespace JesseRussell.FancyTyping
         public object Value { get; }
         public Type Type => Value.GetType();
         private static ImmutableHashSet<Type> _whiteList = null;
-        public static ImmutableHashSet<Type> WhiteList => _whiteList ??= new TypeArray<T1, T2, T3, T4, T5, T6, T7, T8>().ToImmutableHashSet();
+        public static ImmutableHashSet<Type> StaticWhiteList => _whiteList ??= new TypeArray<T1, T2, T3, T4, T5, T6, T7, T8>().ToImmutableHashSet();
+        public ImmutableHashSet<Type> WhiteList => StaticWhiteList;
         public Any(T1 value) => Value = value;
         public Any(T2 value) => Value = value;
         public Any(T3 value) => Value = value;

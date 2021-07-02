@@ -121,5 +121,8 @@ namespace JesseRussell.FancyTyping
                 return false;
             }
         }
+
+        public static bool Fits<T>(this IAny self) => self.WhiteList.Contains(typeof(T));
+        public static bool Fits<T>(this IAny self, T value) => self.WhiteList.Contains(value.GetType());
     }
 }
