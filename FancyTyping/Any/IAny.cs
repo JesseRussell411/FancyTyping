@@ -12,9 +12,7 @@ namespace JesseRussell.FancyTyping
         // requirements:
         object Value { get; }
         Type Type { get; }
-
         ImmutableHashSet<Type> WhiteList { get; }
-
         // self implemented:
         public static ImmutableHashSet<Type> StaticWhiteList = new TypeArray().ToImmutableHashSet();
 

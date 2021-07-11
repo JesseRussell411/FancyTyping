@@ -103,7 +103,8 @@ for i in range(1, TYPE_PARAMETER_COUNT + 1):
 
     # Explicit casts...
     for j in range(1, i + 1):
-        outwriteline(INDENT * 2 + "public static explicit operator " + T(j) + "(" + FULL_NAME + " self) => self.TryMatch(out " + T(j) + " result) ? result : throw new InvalidCastException();")
+        # outwriteline(INDENT * 2 + "public static explicit operator " + T(j) + "(" + FULL_NAME + " self) => self.TryMatch(out " + T(j) + " result) ? result : throw new InvalidCastException();")
+        outwriteline(INDENT * 2 + "public static explicit operator " + T(j) + "(" + FULL_NAME + " self) => self.Value is " + T(j) + " t ? t : throw new InvalidCastException();")
 
     #Obligatory object stuff
     outwriteline(INDENT * 2 + "public override string ToString() => Value?.ToString();")
